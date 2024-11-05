@@ -25,3 +25,5 @@ print("Is he rich?", is_rich)
 # ctrl + / -> comments
 # win + . -> emoji 😊🤯
 # ctrl + ~ -> Terminal
+
+# Hi, hello 
