@@ -7,7 +7,7 @@
 # # Want to print "love"
 # # print(quote[2] + quote[3] + quote[4] + quote[5])
 # # quote[start:end:skip] # end is not included
-# print(quote[2:6])
+# print(quote[2:6]) # Slice operator
 # print(quote[2:])
 # print(quote[2:10:2])
 
@@ -30,11 +30,11 @@ secret_message = "   Programming in Python is not only powerful but also fun!   
 # Expected Output
 # "PYTHON-POWERFUL"
 
-#Solution 1: 
+# Solution 1:
 # store_pythonpowerful = secret_message[18:24] + "-" + secret_message[37:45]
 # print(store_pythonpowerful.upper())
 
-#Solution 2 :
+# Solution 2 :
 
 
 # 1. Solve the problem.
@@ -52,10 +52,10 @@ flipped_message = "!nuf sseldnE dna seitinutroppo lufrewop htiw nohtyP"
 # "python 🗡️ powerful 🌸"
 # Python with powerful opportunities and Endless fun!
 # MY ANSWER
-# original_msg = flipped_message[::-1] 
+# original_msg = flipped_message[::-1]
 # expected_msg = original_msg[0:6] + " 🗡️ " + original_msg[11:20] + " 🌸"
 # print(expected_msg.lower())
 
 # Teacher's Solution
-original_msg = flipped_message[::-1] 
+original_msg = flipped_message[::-1]
 print(f"{original_msg[0:6]} 🗡️ {original_msg[11:20]} 🌸".lower())
